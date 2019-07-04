@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+}
+.ui.segment{
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +37,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.LeftSide {
+  background-color:red;
+  text-align: center;
+  height: 500px;
+  
+}
+
+.RightSide {
+  background-color:yellow;
+  text-align: center;
+  height: 500px;
+}
+
+.ButtonLeft {
+  background-color: black;
+  margin-top: 70px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 25px;
+}
+
+.scoring {
+  font-size: 100px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.versus {
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.leftButton{
+  margin: 10px;
+  margin-top: 90px;
+  size: 100px;
+  font-size: 100px;
+}
+.ui.buttons .button {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+
+
 }
